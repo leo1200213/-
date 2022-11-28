@@ -43,7 +43,7 @@
 
 ![](https://i.imgur.com/pypqBRK.png)
 
- -  Hover : 提供銳利帶有glitch感聲響，可以調控音量,照拍子而變化的節奏(4,8,16)，以及提供不同急促程度的4個mode
+ -  Hover : 提供銳利帶有glitch感聲響，可以調控音量,照拍子而變化的節奏(4,8,16)，以及提供不同急促程度的4個mode(注意須將`sawfest.cl.pd`一同下載於`interface.pd`的資料夾)
 
 ![](https://i.imgur.com/FaYa7Zs.png)
 
