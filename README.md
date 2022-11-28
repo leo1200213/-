@@ -47,10 +47,10 @@
 
 ![](https://i.imgur.com/FaYa7Zs.png)
 
-    visual:按下create會產生圖像的視窗
+-  visual:按下create會產生圖像的視窗
 ![](https://github.com/leo1200213/pure-data_midterm-showcase/blob/main/puredata_pic/create.png)
 
-    visual:40,100,280別對應三種不同模式，記得先把ON/OFF打開
+-  visual:40,100,280別對應三種不同模式，記得先把ON/OFF打開
 ![](https://github.com/leo1200213/pure-data_midterm-showcase/blob/main/puredata_pic/on_off.png)
 
 
