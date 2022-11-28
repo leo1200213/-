@@ -1,8 +1,11 @@
 # 數位音樂藝術與創作 期中報告
 
-這個作品以`interface.pd`作為主要介面，利用mixer上的trigger以及slider，控制不同聲音物件的開關及其他各種可能性，以下介紹各個音樂物件及其他需要用到地方元件：
+這個作品以`interface.pd`作為主要介面，利用mixer上的trigger以及slider，控制不同聲音物件的開關及其他各種可能性，以下介紹各個音樂物件及其他需要用到第三方包裹：
 ![](https://i.imgur.com/2kwC9QW.png =800x350)
-這些物件由幾個元素所組成：
+
+## 音樂物件組成：
+
+
  - Bpm : 用來控制節奏樂器的節拍(Drum, Arpeggiator, Hover, Bass)
 
 ![](https://i.imgur.com/K4NTobs.png =180x180)
@@ -43,6 +46,19 @@
 ![](https://i.imgur.com/FaYa7Zs.png =250x180)
 
 
+
+## 使用需要下載的第三方包裹
+
+### Valhalla VintageVerb & Valhalla Super Massive
+在該作品裡，有用到第三方提供的reverb和delay plug-ins，可以透過[該教程](https://www.youtube.com/watch?v=Cs0NPime0kU&t=341s&ab_channel=SoundSimulator)將這兩個plug-ins運用在pure data上
+
+([Valhalla Super Massive載點](https://valhalladsp.com/shop/reverb/valhalla-supermassive/)
+和
+[Valhalla VintageVerb載點（可找一下有沒有免費版的）](https://valhalladsp.com/shop/reverb/valhalla-vintage-verb/))
+
+### Live Coding Toolkit for Pure Data
+該作品有運用到[Andrew R. Brown](https://www.youtube.com/@QCGInteractiveMusic)所提供的第三方包裹，經由[該連結](https://www.youtube.com/watch?v=070_kvkYp6o&ab_channel=QCGInteractiveMusic)的教學便能
+順利使用此作品
 
 
     
