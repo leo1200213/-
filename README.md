@@ -58,6 +58,8 @@
 和
 [Valhalla VintageVerb載點（可找一下有沒有免費版的）](https://valhalladsp.com/shop/reverb/valhalla-vintage-verb/))
 
+visual.pd 需先安裝GEM(不支援Mac)
+
 ### Live Coding Toolkit for Pure Data
 該作品有運用到[Andrew R. Brown](https://www.youtube.com/@QCGInteractiveMusic)所提供的第三方包裹，經由[該連結](https://www.youtube.com/watch?v=070_kvkYp6o&ab_channel=QCGInteractiveMusic)的教學便能
 順利使用此作品
