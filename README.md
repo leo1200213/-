@@ -47,7 +47,7 @@
 
 ![](https://i.imgur.com/FaYa7Zs.png)
 
-![https://github.com/leo1200213/pure-data_midterm-showcase/blob/main/puredata_pic/on_off.png]
+![](https://github.com/leo1200213/pure-data_midterm-showcase/blob/main/puredata_pic/on_off.png)
 
 
 
