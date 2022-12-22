@@ -1,0 +1,9 @@
+{
+  "name": "visual",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "node": "^19.3.0"
+  }
+}
