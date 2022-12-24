@@ -3,7 +3,7 @@ var mode="in"
 var R
 var G
 var B
-var window_size=400
+var window_size=400//Change picture size
 var _brightness=200
 
 // Changeable///
