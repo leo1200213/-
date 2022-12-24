@@ -7,7 +7,7 @@ var window_size=400
 var _brightness=200
 
 // Changeable///
-var rotaion_width=window_size*5/7  //if all prime number will be cooler
+var rotaion_width=window_size*5/7  //can be any int
 var rotaion_height=window_size*3/5 //can be any int
 
 var cir_size=50 //size of circle and rectangular
