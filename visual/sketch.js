@@ -7,16 +7,21 @@ var window_size=400
 var _brightness=200
 
 // Changeable///
-var rotaion_width=window_size*6/7
-var rotaion_height=window_size*4/5
-var cir_size=50
-var layer=5 //1~5
-var rotation_speed=1 
-var afterimage=40 //殘影
+var bpm=280
+var rotaion_width=window_size*5/7  //can be any int
+var rotaion_height=window_size*3/5 //can be any int
+
+var cir_size=50 //10~100 size of circle and rectangular
+var layer=5 //1~5 number of layer(int)
+var rotation_speed=1 //0~1
+var afterimage=40 // 40~100
 var _brightness_min=100 //0~255
 ///////////////////
 
+var Frame_Rate=bpm/60*10
+
 function setup() {
+  frameRate(30)
   createCanvas(window_size, window_size);
   R=frameCount%(_brightness/2)+_brightness_min
   G=frameCount%(_brightness/3)+_brightness_min
@@ -72,11 +77,11 @@ function cir(a,b,size,start_x,start_y,count,speed,mode){
   }
 }
 function draw() {
+  frameRate(Frame_Rate)
   R=frameCount%(_brightness/2)+_brightness_min
   G=frameCount%(_brightness/3)+_brightness_min
   B=frameCount%(_brightness/5)+_brightness_min
-  background(R,G,B,afterimage);
-  cir(rotaion_width,rotaion_height,cir_size,window_size/2,window_size/2,layer,rotation_speed,mode)
+  background(R,G,B,afterimage);                 cir(rotaion_width,rotaion_height,cir_size,window_size/2,window_size/2,layer,rotation_speed,mode)
   
   
 }
