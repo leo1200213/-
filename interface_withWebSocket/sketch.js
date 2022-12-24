@@ -6,10 +6,11 @@ var B
 var window_size=400
 var _brightness=200
 
-// Changeable////////
-var rotaion_width=window_size*6/7
-var rotaion_height=window_size*4/5
-var cir_size=50
+// Changeable///
+var rotaion_width=window_size*5/7  //if all prime number will be cooler
+var rotaion_height=window_size*3/5 //can be any int
+
+var cir_size=50 //size of circle and rectangular
 var layer=5 //1~5
 var rotation_speed=1 
 var afterimage=40 //殘影
