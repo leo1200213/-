@@ -9,16 +9,13 @@
     <body>
         <script src="sketch.js"></script>
         <script>
-            var websocket=new WebSocket('ws://localhost:9998');
-            websocket.onmessage=function(event){
-                // document.forms[0].slider.value=event.data;
-                document.getElementById("demo").innerHTML = event.data;
-                console.log("!!!!!!!!!!!!!!!!!!!!!",event.data);
-            };
+            // var websocket=new WebSocket('ws://localhost:9998');
+            // websocket.onmessage=function(event){
+            //     // document.forms[0].slider.value=event.data;
+            //     document.getElementById("demo").innerHTML = event.data;
+            //     console.log("!!!!!!!!!!!!!!!!!!!!!",event.data);
+            // };
         </script>
-        <p id="demo" style="font-size:70px;">hue</p>
-        <!-- <form>
-            <input name="slider" type="range" max="127" onInput="websocket.send('; slider-recv '+(this.value))">
-        </form> -->
+        <!-- <p id="demo" style="font-size:70px;">hue</p> -->
     </body>
 </html>
