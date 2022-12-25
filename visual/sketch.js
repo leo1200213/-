@@ -3,7 +3,7 @@ var mode="in"
 var R
 var G
 var B
-var window_size=400//Change picture size
+var window_size=window.innerHeight//Change picture size
 var _brightness=200
 
 // Changeable///
@@ -81,7 +81,31 @@ function draw() {
   R=frameCount%(_brightness/2)+_brightness_min
   G=frameCount%(_brightness/3)+_brightness_min
   B=frameCount%(_brightness/5)+_brightness_min
-  background(R,G,B,afterimage);                 cir(rotaion_width,rotaion_height,cir_size,window_size/2,window_size/2,layer,rotation_speed,mode)
+  background(R,G,B,afterimage);                 
+  cir(rotaion_width,rotaion_height,cir_size,window_size/2,window_size/2,layer,rotation_speed,mode)
   
   
 }
+
+var websocket=new WebSocket('ws://localhost:9998');
+websocket.onmessage=function(event){
+    // document.getElementById("demo").innerHTML = event.data;
+    const data = event.data.split("_");
+    console.log("!!!!!!!!!!!!!!!!!!!!!",data);
+    if(data[0] == "bpm")
+      bpm = data[1];
+    else if(data[0] == "drumVolume")
+      layer = 8 * data[1] + 1;
+    else if(data[0] == "droneMaster")
+      afterimage = 240 * data[1] + 40;
+    else if(data[0] == "appVolume")
+      _brightness_min = data[1] * 510;
+    else if(data[0] == "bassVolume")
+      cir_size = data[1] * 90 + 10;
+    else if(data[0] == "hoverVolume")
+      rotation_speed = data[1] * 8;
+    else if(data[0] == "appAttack")
+      rotaion_width = data[1];
+    else if(data[0] == "appRelease")
+      rotaion_height = data[1];
+};
